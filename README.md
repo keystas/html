@@ -1,4 +1,4 @@
 # Practice HTML &amp; CSS
 
 #### My Portfolio
-[landing page #1](https://klyuchnikoff.github.com/html/landing-1/)
+[landing page #1](https://klyuchnikoff.github.io/html/landing-1/)
