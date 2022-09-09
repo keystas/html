@@ -72,9 +72,9 @@ p {
 }
 
 .nav__link {
+    font-size: 20px;
     margin-right: 35px;
     color: #fff;
-    text-transform: uppercase;
     text-decoration: none;
     font-weight: 600;
     position: relative;
@@ -110,10 +110,10 @@ p {
 }
 
 .header__lng-link {
+    font-size: 18px;
     margin-right: 8px;
     color: #878787;
     font-weight: 600;
-    text-transform: uppercase;
     text-decoration: none;
     transition: color .2 ease;
 }
@@ -197,7 +197,7 @@ p {
 }
 
 .info__title {
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.1em;
     margin-bottom: 10px;
 }
@@ -212,19 +212,24 @@ p {
 
 .block__title {
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 0.1em;
 }
 
 .block__link {
+    text-decoration: none;
+    font-size: 25px;
     display: inline-block;
     margin-bottom: 60px;
     letter-spacing: 0.15em;
     color: #000;
+    font-weight: 500;
 }
+
 
 .block__link:hover {
     text-decoration: none;
+    color: #514949;
 }
 
 .wrapper {
@@ -309,12 +314,14 @@ p {
 }
 
 .services__title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     color: #000;
 }
 
-
+.services__title:hover {
+    color: #514949;
+}
 
 /* services end */
