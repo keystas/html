@@ -1,0 +1,144 @@
+@media (max-width: 1400px) {
+    .header {
+        padding-bottom: 250px;
+    }
+
+    .article-img {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 69px;
+    }
+
+    .article-text::before {
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+    }
+
+    .article-text {
+        padding-left: 50px;
+        max-width: 50%;
+        margin-right: 0px;
+    }
+
+    .article-img {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .hero-title {
+        font-size: 48px;
+    }
+
+   .article-title {
+        font-size: 42px;
+    }
+
+    .footer-nav + .footer-nav {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer-row {
+        flex-direction: column-reverse;
+    }
+
+    .footer-nav-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .article-img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        padding-bottom: 200px;
+    }
+
+    .nav, .account {
+        display: none;
+    }
+
+    .nav-wrapper {
+        margin-bottom: 90px;
+    }
+
+    .nav-button {
+        display: block;
+        position: fixed;
+        right: 50px;
+        top: 72px;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+    } 
+
+    .hero-category::before {
+        width: 42px;
+    }
+
+    .hero-category {
+        font-size: 14px;
+        padding-left: 62px;
+    }
+
+    .article-title {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 720px) {
+    .article, 
+    .article:nth-child(even) {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+        align-items: flex-start;
+    }
+
+    .article-text {
+        max-width: 100%;
+    }
+
+    .article-img {
+        max-width: 260px;
+        margin-bottom: 75px;
+    }
+
+    .article-title {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 540px) {
+    .footer-nav-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-nav + .footer-nav {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .hero-title {
+        font-size: 38px;
+    }
+
+    .article-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 370px) {
+    .logo {
+        margin-right: 20px;
+    }
+}
