@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0px 12px 0px 12px;
+    color: #fff;
+    background-color: #C0DBD9;
+    width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.header__wrap {
+    min-height: 100px;
+    background-color: #7faff7;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.header__button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #A5C7F9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    line-height: 115%;
+}
+
+.main__wrap {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main__hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    margin-bottom: 15px;
+    background-color: #b3f95a;
+}
+
+.main__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 53px;
+    line-height: 117%;
+    min-height: 198px;
+    background-color: #8AD191;
+}
+
+.main__item:last-child::after {
+    content: "5";
+}
+
+.item--regular {
+    width: 390px;
+}
+
+.item--regular::after {
+    content: "1";
+    font-family: 'Roboto', sans-serif;
+}
+
+.item--medium {
+    width: 590px;
+}
+
+.item--medium::after {
+    content: "2";
+    font-family: 'Roboto', sans-serif;
+}
+
+.item--small {
+    width: 160px;
+}
+
+
+.item--small::after {
+    content: "3";
+    font-family: 'Roboto', sans-serif;
+}
+
+.item--large {
+    width: 998px;
+}
+
+.item--large::after {
+    content: "4";
+    font-family: 'Roboto', sans-serif;
+}
+
+.main__cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #88B5BF;
+}
+
+.main__card {
+   width: 255px; 
+   min-height: 199px;
+   background-color: #0d89b0;
+}
+.footer__wrap {
+    min-height: 100px;
+    background-color: #7faff7;
+}
+
