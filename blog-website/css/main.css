@@ -408,6 +408,12 @@ body.light-theme {
     flex-direction: column;
     gap: var(--gap);
     padding-block: 2rem;
+    border: 1px solid var(--transparent-light-color);
+}
+
+.trending-news-box:last-of-type {
+    border-bottom: none;
+    1:25 video
 }
 
 /* Quick read */
