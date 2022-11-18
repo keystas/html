@@ -1,0 +1,16 @@
+:root { font: 20px/1.2 "Roboto", sans-serif; } 
+
+body,
+body * {
+    /* margin: unset; */
+    box-sizing: border-box;
+    /* padding: unset; */
+    /* font-size: unset; */
+    /* color: unset; */
+    text-decoration: unset;
+    background: hsl(55, 100%, 97%);
+}
+
+figure * {
+    display: block;
+}
