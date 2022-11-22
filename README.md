@@ -5,6 +5,6 @@
 
 [landing page #2](https://keystas.github.io/portfolio/landing-2/) - [Figma Template](https://www.figma.com/file/73Nv4p307ZJWRHE4hChMN3/landing-2) 
 
-[text-blog example](https://keystas.github.io/portfolio/easy_blog/)
+[sample text page](https://keystas.github.io/portfolio/easy_blog/)
 
 
