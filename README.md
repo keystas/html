@@ -10,4 +10,5 @@
 
 [sample text page](https://keystas.github.io/portfolio/easy_blog/)
 
+[portfolio sample](https://keystas.github.io/portfolio/personal_portfolio/)
 
