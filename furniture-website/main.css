@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.logo {
+    color: #12131a;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #12131a;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00bf9f;
+    transition: .3s;
+}
+
+button {
+    background:#12131a;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+header {
+    position: absolute;
+    width: 94%;
+    margin: 0 auto;
+    padding: 13px 0;
+    top: 40px;
+    left: 30px;
+    right: 30px;
+    border-radius: 50px;
+    z-index: 2;
+    background: white;
+    box-shadow: 0 0 30px rgb(0 0 0 / 8%);
+}
+
+.bg {
+    position: absolute;
+    background-image: url(./img/bg_chair4.jpg);
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 65%;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translateY(-50%);
+}
+
+.content h1 {
+    color: #12131a;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    margin-bottom: 6px;
+}
+
+.content h3 {
+    color: #12131a;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.btn1 {
+    position: absolute;
+    top: 62%;
+    left: 68%;
+}
+
+.btn1 a {
+    background: #12131a;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+.last {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+.last a {
+    color: #12131a;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
