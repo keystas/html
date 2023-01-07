@@ -11,5 +11,6 @@
 [sample text page](https://keystas.github.io/portfolio/easy_blog/)
 
 [portfolio sample](https://keystas.github.io/portfolio/personal_portfolio/)
+
 [furniture web page](https://keystas.github.io/portfolio/furniture-website/)
 
