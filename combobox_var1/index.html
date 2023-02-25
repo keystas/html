@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
     <details class="custom-select">
         <summary class="radios">
+            <input type="text" id="text" size="28" placeholder="You send">
             <input type="radio" name="item" id="default" title="BTC" checked>
             <input type="radio" name="item" id="item1" title="ETH">
             <input type="radio" name="item" id="item2" title="USDT">
@@ -50,5 +52,54 @@
             </li>
         </ul>
     </details>
+    </div>
+
+    <!-- Duplicate -->
+
+        <div class="wrapper1">
+        <details class="custom-select">
+        <summary class="radios">
+            <input type="text" id="text" size="28" placeholder="You receive">
+            <input type="radio" name="item" id="default" title="BTC" checked>
+            <input type="radio" name="item" id="item1" title="ETH">
+            <input type="radio" name="item" id="item2" title="USDT">
+            <input type="radio" name="item" id="item3" title="BNB">
+            <input type="radio" name="item" id="item4" title="XRP">
+            <input type="radio" name="item" id="item5" title="MATIC">
+        </summary>
+        <ul class="list">
+            <li>
+                <label for="item1">
+                    ETH
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label for="item2">
+                    USDT
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label for="item3">
+                    BNB
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label for="item4">
+                    XRP
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label for="item5">
+                    MATIC
+                    <span></span>
+                </label>
+            </li>
+        </ul>
+    </details>
+</div>
 </body>
 </html>
